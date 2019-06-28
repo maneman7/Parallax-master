@@ -1,0 +1,345 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Segoe UI";
+	font-size: 16px;
+	font-color: #2D3038;
+}
+.jumbotron{
+	color: white;
+	background-image: url(01.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+li{
+	list-style-type: none;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    /*font-weight: 700;*/
+    color: #2d3038;
+}
+
+.button{
+	width: 100%;
+	background-color: #3C70B4;
+	padding: 10px;
+	margin-left: -15px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+#footer{
+	background-color: #87C05E;
+	padding: 20px;
+	width: 100%;
+	margin: 0;
+	display: inline-block;
+	color: white;
+}
+
+.button a{
+	color: white;
+	text-decoration: none;
+}
+
+.signature{
+	font-weight: normal;
+    margin-top: 20px;
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-family: 'Great Vibes', cursive; 
+}
+
+hr{
+	border: none;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border: 0.5px solid #ddd;
+}
+
+.icon{
+	display: inline-block;
+	float: left;
+	padding: 10px 30px 0 20px;
+	font-size: 36px;
+}
+
+.ico1{
+	color: #F7941D;
+}
+
+.ico2{
+	color: #ED1C24;
+}
+
+.ico3{
+	color: #B90162;
+}
+
+.ico4{
+	color: #3C70B4;
+}
+
+.size{
+	font-size: 21px;
+}
+
+.content{
+	position: relative;
+	padding: 180px 0 290px 0;
+	z-index: 999;
+	color: #fff;
+}
+
+.jumbotron h1{
+	position: relative;
+	padding-top: 100px;
+	font-family: 'Pacifico', cursive;
+}
+
+.jumbotron p{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;	
+}
+
+.impressive{
+	margin-top: 15px;
+	position: relative;
+	letter-spacing: 15px;
+}
+
+[class*='span-']{
+	float: left;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.container{
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.row{
+	margin-left: -15px;
+	margin-right: -15px;
+	overflow-x: hidden;
+}
+
+.span-12{ width: 100%; }
+.span-8{ width: 66.666%; }
+.span-6{ width: 50%; }
+.span-4{ width: 33.333%; }
+.span-3{ width: 25%; }
+.span-2{ width: 20%; }
+.span-1{ width: 5%; }
+
+.breadcrumb{
+	width: 100%;
+	background-color: #EBEBEB;
+	border-radius: 5px;
+	float: left;
+}
+
+.bm{
+	position: relative;
+	width: 100%;
+	display: block;
+	height: auto;
+}
+
+.image{
+	position: relative;
+	width: 100%;
+}
+
+.relay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 100%;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	background-color: #EF6E30;
+	transition: 0.5s ease;
+	opacity: 0.9;
+}
+
+.image:hover .relay{
+	bottom: 0;
+	height: 100%;
+}
+
+.text{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	float: right;
+	transform: translate(-50%, -50%);
+	font-size: 22px;
+	white-space: nowrap;
+	color: white;
+}
+
+.skills{
+	padding: 5px 0;
+	border-radius: 5px;
+}
+
+.excellent{
+	width: 90%;
+	background-color: #3C70B4;
+}
+
+.top{
+	width: 90%;
+	background-color: #87C05E;
+}
+
+.intermediate{
+	width: 75%;
+	background-color: #F4BF00;
+}
+
+.newbie{
+	width: 55%;
+	background-color: #D4581E;
+}
+
+.bar-left{
+	font-weight: 900;
+	float: left;
+}
+.bar-right{
+	float: right;
+	padding-bottom: 10px;
+}
+
+.bullet{
+	width: 70%;
+	text-align: center;
+	border-radius: 50%;
+	height: auto;
+}
+
+.desc2{
+	padding: 30% 0;
+	font-size: 35px;
+	color:#fff;
+	font-weight: 700;
+}
+
+.nama{
+	font-color: #2D3038; 
+	margin-top: 100px;
+	font-family:'Open Sans', sans-serif;
+	font-size: 55px;
+}
+.kontak{
+	line-height: 40px;
+	font-size: 18px;
+	padding: 45px 0;
+}
+
+.skill{
+	font-size: 55px;
+	font-weight: 700; 
+	padding: 50px 0;
+}
+
+.bar-left{
+	font-size: 15px;
+}
+
+.social li{
+	float: left;
+	display: inline-block;
+	padding: 8px;
+}
+
+.peace {
+	color: #87C05E;
+}
+
+.social i{ color: #2D3038; }
+
+@media screen and (max-width: 720px){
+	.span-2{ width: 50%; }
+	.span-4{ width: 100%; }
+	.span-3{ width: 50%; }
+	.span-6{ width: 100%; }
+	.span-8{ width: 100%; }
+
+	.jumbotron{
+		width: 100%;
+	}
+
+	.content{
+		padding: 0;
+	}
+
+	.jumbotron p{
+		font-size: 30px;
+	}
+
+	.impressive{
+		font-size: 17px;
+		letter-spacing: 5px;
+		padding-bottom: 30px;
+	}
+
+	.nama{
+		font-size: 35px;
+	}
+
+	.kontak{
+		font-size: 18px;
+	}
+
+	.caption{
+		font-size: 16px;
+	}
+
+	.desc{
+		font-size: 18x;
+	}
+
+	.skill{
+		font-size: 27px;
+	}
+
+	.desc2{ font-size: 19px; }
+
+	.icon{ font-size: 22px; }
+
+	.size{ font-size: 18px; }
+
+	#footer p{ font-size: 14px; }
+
+	p{ font-size: 15px; }
+
+}
+
+@media screen and(max-width: 480px){
+	.span-2{ width: 100% !important;	 }
+}
